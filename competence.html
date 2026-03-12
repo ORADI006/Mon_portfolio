@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences · #XV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="porfx.css">
+</head>
+<body class="dark-bg">
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/" class="logo-text">#XV<span class="gold-dot">.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="competences.html" class="nav-link active">Compétences</a></li>
+                <li><a href="projet.html" class="nav-link">Projets</a></li>
+                <li><a href="contacte.html" class="nav-link">contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-header reveal">
+            <h1 class="page-title">compétences <span class="gold-text">#XV</span></h1>
+            <div class="title-underline"></div>
+        </section>
+
+        <!-- Grille de compétences (cartes 3D / glass) -->
+        <section class="skills-grid reveal">
+            <div class="skill-card glass-card glow-hover card-3d">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h2>Web Development</h2>
+                <p>HTML5, CSS3, JavaScript, Python – création d’interfaces dynamiques et futuristes.</p>
+                <div class="skill-tags">
+                    <span>frontend</span><span>backend</span><span>API</span>
+                </div>
+            </div>
+            <div class="skill-card glass-card glow-hover card-3d">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h2>Database Management</h2>
+                <p>MySQL, modélisation, optimisation et sécurité des données relationnelles.</p>
+                <div class="skill-tags">
+                    <span>SQL</span><span>modélisation</span><span>admin</span>
+                </div>
+            </div>
+            <div class="skill-card glass-card glow-hover card-3d">
+                <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                <h2>Innovation logicielle</h2>
+                <p>Conception d’outils numériques, prototypes et solutions disruptives.</p>
+                <div class="skill-tags">
+                    <span>R&D</span><span>MVP</span><span>design</span>
+                </div>
+            </div>
+            <div class="skill-card glass-card glow-hover card-3d">
+                <div class="skill-icon"><i class="fas fa-broadcast-tower"></i></div>
+                <h2>Live & Streaming</h2>
+                <p>Production live, technologies temps réel, intégration OBS / streaming tools.</p>
+                <div class="skill-tags">
+                    <span>OBS</span><span>Vmix</span><span>BibleShow</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- call to action vers projets -->
+        <div class="cta-wrapper reveal">
+            <a href="porf2.html" class="btn-glass btn-gold-glow large">
+                Voir mes projets <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer glass">
+        <div class="footer-container">
+            <div class="footer-info">
+                <span class="footer-name">ORADI MBIKALE BINANGU</span>
+                <span class="footer-alias">#XV</span>
+            </div>
+            <div class="footer-copy">
+                © 2026 — Tous droits réservés.
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="porfy.js"></script>
+    <script>
+        // active nav
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (link.getAttribute('href') === 'porfc.html') link.classList.add('active');
+        });
+    </script>
+</body>
+</html>

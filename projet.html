@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets · #XV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="porfx.css">
+</head>
+<body class="dark-bg">
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/" class="logo-text">#XV<span class="gold-dot">.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="competence.html" class="nav-link">Compétences</a></li>
+                <li><a href="projet.html" class="nav-link active">Projets</a></li>
+                <li><a href="contacte.html" class="nav-link">contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-header reveal">
+            <h1 class="page-title">projets <span class="gold-text">récents</span></h1>
+            <div class="title-underline"></div>
+            <p class="header-sub">inspirés par une approche GitHub · chaque carte brille</p>
+        </section>
+
+        <!-- grille type repo github -->
+        <section class="projects-grid reveal">
+            <div class="project-card glass-card glow-hover">
+                <div class="project-header">
+                    <i class="fas fa-bookmark gold-icon"></i>
+                    <h3>NeoPortfolio</h3>
+                </div>
+                <p class="project-desc">Portfolio interactif avec animations 3D et glassmorphism. Thème dark/gold.</p>
+                <div class="project-tech">
+                    <span>HTML</span><span>CSS</span><span>JS</span><span>GSAP</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-stars"><i class="far fa-star"></i> 24</span>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card glow-hover">
+                <div class="project-header">
+                    <i class="fas fa-database gold-icon"></i>
+                    <h3>DBModeler X</h3>
+                </div>
+                <p class="project-desc">Outil de modélisation de bases de données MySQL avec générateur de schémas.</p>
+                <div class="project-tech">
+                    <span>Python</span><span>SQL</span><span>Flask</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-stars"><i class="far fa-star"></i> 67</span>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card glow-hover">
+                <div class="project-header">
+                    <i class="fas fa-vr-cardboard gold-icon"></i>
+                    <h3>StreamCore</h3>
+                </div>
+                <p class="project-desc">Plateforme de gestion de production live : overlay, sondes, monitoring.</p>
+                <div class="project-tech">
+                    <span>Node.js</span><span>WebSocket</span><span>OBS</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-stars"><i class="far fa-star"></i> 13</span>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card glow-hover">
+                <div class="project-header">
+                    <i class="fas fa-brain gold-icon"></i>
+                    <h3>IA MusicLab</h3>
+                </div>
+                <p class="project-desc">Expérimentation d'IA générative pour sound design live et visuels réactifs.</p>
+                <div class="project-tech">
+                    <span>Python</span><span>TF</span><span>MIDI</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-stars"><i class="far fa-star"></i> 42</span>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card glow-hover">
+                <div class="project-header">
+                    <i class="fas fa-cubes gold-icon"></i>
+                    <h3>XV CLI</h3>
+                </div>
+                <p class="project-desc">Interface en ligne de commande pour automatiser le déploiement de projets web.</p>
+                <div class="project-tech">
+                    <span>Go</span><span>Docker</span><span>Make</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-stars"><i class="far fa-star"></i> 9</span>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card glow-hover">
+                <div class="project-header">
+                    <i class="fas fa-shield-alt gold-icon"></i>
+                    <h3>CyberDash</h3>
+                </div>
+                <p class="project-desc">Dashboard de monitoring pour serveurs et bases de données en temps réel.</p>
+                <div class="project-tech">
+                    <span>Vue.js</span><span>D3</span><span>SQL</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-stars"><i class="far fa-star"></i> 31</span>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- call to action subtil -->
+        <div class="more-projects reveal">
+            <a href="#" class="btn-glass btn-gold-glow"><i class="fab fa-github"></i> Plus sur GitHub</a>
+        </div>
+    </main>
+
+    <footer class="footer glass">
+        <div class="footer-container">
+            <div class="footer-info">
+                <span class="footer-name">ORADI MBIKALE BINANGU</span>
+                <span class="footer-alias">#XV</span>
+            </div>
+            <div class="footer-copy">
+                © 2025 — Tous droits réservés.
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="porfy.js"></script>
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (link.getAttribute('href') === '/porf2.html') link.classList.add('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#XV · ORADI MBIKALE BINANGU</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="porfx.css">
+    <link rel="stylesheet" href="div.css">
+    
+</head>
+<body class="dark-bg">
+    
+    <nav class="navbar glass">
+        <div class="nav-container">
+            
+            <div class="nav-logo">
+                <a href="/" class="logo-text">#XV<span class="gold-dot">.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li><a href="competence.html" class="nav-link">Compétences</a></li>
+                <li><a href="projet.html" class="nav-link">Projets</a></li>
+                <li><a href="contacte.html" class="nav-link">contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    
+
+
+    <main class="main-content">
+        
+        <section class="hero reveal">
+            <div class="hero-bg"></div> 
+            <div class="hero-container glass-card hero-card">
+                <div class="profile-pic glow-hover">
+                    <img src="oradi.jpg" alt="oradi">
+                </div>
+                <h1 class="hero-name">ORADI MBIKALE BINANGU</h1>
+                <div class="hero-alias">...<span class="gold-text">#XV</span></div>
+                <p class="hero-intro gold-glow-text">Bienvenue sur mon portfolio</p>
+                <p class="hero-description">Développeur & créateur numérique · innovation immersive & technologies live</p>
+                <a href="porfc.html" class="btn-glass btn-gold-glow">
+                    <span>Découvrir mon univers</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                
+            </div>
+        </section>
+
+        <!-- petites cartes d'accroche (optionnel mais design) -->
+        <section class="features reveal">
+            <div class="feature-grid">
+                <div class="feature-card glass-card-sm glow-hover">
+                    <i class="fas fa-code gold-icon"></i>
+                    <h3>Web & mobile</h3>
+                    <p>HTML/CSS/JS, Python, intégration futuriste</p>
+                </div>
+                <div class="feature-card glass-card-sm glow-hover">
+                    <i class="fas fa-database gold-icon"></i>
+                    <h3>Données</h3>
+                    <p>MySQL, modélisation, optimisation</p>
+                </div>
+                <div class="feature-card glass-card-sm glow-hover">
+                    <i class="fas fa-lightbulb gold-icon"></i>
+                    <h3>Innovation</h3>
+                    <p>Logiciels & expériences immersives</p>
+                </div>
+                <div class="feature-card glass-card-sm glow-hover">
+                    <i class="fas fa-video gold-icon"></i>
+                    <h3>Live prod</h3>
+                    <p>Streaming, technologies temps réel</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer commun -->
+    <footer class="footer glass">
+        <div class="footer-container">
+            <div class="footer-info">
+                <span class="footer-name">ORADI MBIKALE BINANGU</span>
+                <span class="footer-alias">#XV</span>
+            </div>
+            <div class="footer-copy">
+                © 2025 — Tous droits réservés. Design fusion.
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="porfy.js"></script>
+    <script>
+        // navigation active page (pour accueil)
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (link.getAttribute('href') === '/' || link.getAttribute('href') === 'porf1.html') {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

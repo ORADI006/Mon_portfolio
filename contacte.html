@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact · #XV</title>
+    <!-- Google Fonts + Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="contc.css">
+</head>
+<body class="dark-bg contact-page">
+    <!-- navigation glassmorphism -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/" class="logo-text">#XV<span class="gold-dot">.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="competences.html" class="nav-link">Compétences</a></li>
+                <li><a href="projet.html" class="nav-link">Projets</a></li>
+                <li><a href="contacte.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    
+    <div class="floating-icons">
+        <span class="float-icon" style="--delay: 0s; --size: 3rem; left: 5%;">💻</span>
+        <span class="float-icon" style="--delay: 2s; --size: 4rem; left: 15%;">⚙️</span>
+        <span class="float-icon" style="--delay: 2s; --size: 5.5rem; left: 25%;">🌐</span>
+        <span class="float-icon" style="--delay: 1s; --size: 4.5rem; left: 40%;">🤖</span>
+        <span class="float-icon" style="--delay: 3s; --size: 3.8rem; left: 55%;">📡</span>
+        <span class="float-icon" style="--delay: 5s; --size: 3rem; left: 70%;">💿</span>
+        <span class="float-icon" style="--delay: 2.5s; --size: 4rem; left: 10%;">🔮</span>
+        <span class="float-icon" style="--delay: 2.5s; --size: 4rem; left: 85%;">֎</span>
+        <span class="float-icon" style="--delay: 4s; --size: 3.5rem; left: 90%;">🌐</span>
+    </div>
+
+    <main class="main-content">
+        <!-- hero / intro -->
+        <section class="contact-hero reveal">
+            <h1 class="page-title">Contactez-<span class="gold-text">moi</span></h1>
+            <div class="title-underline"></div>
+            <p class="contact-intro">
+                Vous avez un projet, une idée ou une collaboration ?<br>
+                N'hésitez pas à m'écrire.
+            </p>
+        </section>
+
+        <!-- contact form (glassmorphism) -->
+        <section class="contact-form-section reveal">
+            <div class="form-container glass-card">
+                <form action="https://formsubmit.co/drivelinkxv76@gmail.com" method="POST" class="contact-form">
+                    <!-- honeypot & anti-spam options (formsubmit.co) -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://#xv-portfolio.com/merci.html"> <!-- redirection après envoi (optionnel) -->
+                    <input type="hidden" name="_subject" value="Nouveau message de #XV portfolio">
+                    <input type="hidden" name="_template" value="table">
+
+                    <div class="form-group">
+                        <label for="fullname">Votre nom <span class="gold-text">*</span></label>
+                        <input type="text" id="fullname" name="Nom" placeholder="ex. ORADI MBIKALE" required class="form-input glass">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fullname">Email <span class="gold-text">*</span></label>
+                        <input type="text" id="fullname" name="Nom" placeholder="ex. oradimbikale0@gmail.com" required class="form-input glass">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="reason">Pourquoi m'écrivez-vous ?</label>
+                        <select id="reason" name="Raison" class="form-input glass">
+                            <option value="Collaboration">Collaboration</option>
+                            <option value="Demande de projet">Demande de projet</option>
+                            <option value="Question technique">Question technique</option>
+                            <option value="Opportunité professionnelle">Opportunité professionnelle</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre message <span class="gold-text">*</span></label>
+                        <textarea id="message" name="Message" rows="6" placeholder="Écrivez votre message ici..." required class="form-input glass"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-glass btn-gold-glow submit-btn">
+                        <span>Envoyer le message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- small extra info (optional) -->
+        <div class="contact-direct reveal">
+            <p>Ou écrivez directement : <span class="gold-text">drivelinkxv76@gmail.com</span></p>
+        </div>
+    </main>
+
+    <!-- footer commun -->
+    <footer class="footer glass">
+        <div class="footer-container">
+            <div class="footer-info">
+                <span class="footer-name">ORADI MBIKALE BINANGU</span>
+                <span class="footer-alias">#XV</span>
+            </div>
+            <div class="footer-copy">
+                © 2025 — Tous droits réservés.
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contjs.js"></script>
+    <script>
+        // active nav for contact page
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (link.getAttribute('href') === '/contact.html') link.classList.add('active');
+        });
+    </script>
+</body>
+</html>
